@@ -1,8 +1,8 @@
-// const syn = document.getElementById("synchronous");
-// setTimeout(() => {
-//   console.log("inside ");
-//   syn.innerText = "Thank! you are  not bocking me";
-// }, 6000);
+const syn = document.getElementById("synchronous");
+setTimeout(() => {
+  console.log("inside ");
+  syn.innerText = "Thanks! you are  not bocking me";
+}, 6000);
 
 // console.log("yes i am running");
 // www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
@@ -36,7 +36,9 @@ function getMeals(mealsName) {
                   <p>
                     ${data.meals[0].strInstructions.slice(0, 200)}...
                   </p>
-                  <h3 class="price">$100</h3>
+                  <h3 class="price">$${(Math.random() * 100 + 40).toFixed(
+                    2
+                  )}</h3>
                   <button class="btn">Order Now</button>
                 </div>
               </div>
@@ -49,5 +51,8 @@ function getMeals(mealsName) {
 // console.log(fristRequest);
 
 getMeals("Arrabiata");
-getMeals("Pasta");
+getMeals("thai");
 getMeals("Rice");
+getMeals("Beef");
+getMeals("chicken");
+getMeals("cheese");
