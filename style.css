@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+}
+.meals {
+  width: 40rem;
+  margin: 4rem 3rem;
+  padding: 1rem 0.9rem;
+  border: 0.2rem solid gainsboro;
+  border-radius: 2rem;
+}
+.image img {
+  width: 90%;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+}
+.meals-info {
+  margin-left: 1.5rem;
+}
+.meals-info p {
+  font-size: 1.5rem;
+  color: #070202;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+.ingri {
+  color: rgba(73, 61, 61, 0.87);
+}
+.price {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.btn {
+  background-color: rgb(57, 105, 57);
+  border: none;
+  color: #fff;
+  padding: 1rem 5rem;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transform: translate(40%);
+}
