@@ -1,6 +1,14 @@
 html {
   font-size: 62.5%;
 }
+.meals-container {
+  opacity: 0;
+  transition: opacity 5s;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .meals {
   width: 40rem;
   margin: 4rem 3rem;
